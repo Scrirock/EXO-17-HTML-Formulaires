@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+</head>
+<body>
+
+    <form method="post">
+        <div>
+            <label for="nom">Entrez votre nom</label><br>
+            <input type="text" id="nom" autofocus required><br>
+        </div>
+        <div>
+            <label for="prenom">Entrez votre prenom</label><br>
+            <input type="text" id="prenom" required><br>
+        </div>
+        <div>
+            <label for="jour">Entrez votre date de naissance</label><br>
+            <input type="number" id="jour"><br>
+        </div>
+        <div>
+            <label for="mois">Entrez votre mois de naissance</label><br>
+            <select id="mois">
+                <option value="Janvier">Janvier</option>
+                <option value="Fevrier">Fevrier</option>
+                <option value="Mars">Mars</option>
+                <option value="Avril">Avril</option>
+                <option value="Mai">Mai</option>
+                <option value="Juin">Juin</option>
+                <option value="Juillet">Juillet</option>
+                <option value="Aout">Aout</option>
+                <option value="Septembre">Septembre</option>
+                <option value="Octobre">Octobre</option>
+                <option value="Novembre">Novembre</option>
+                <option value="Decembre">Decembre</option>
+            </select>
+            <br>
+        </div>
+            <label for="annee">Entrez votre année de naissance</label><br>
+            <input type="number" id="annee"><br>
+        <div>
+            <label for="sexe">Spécifiez votre sexe</label><br>
+            <input type="text" id="sexe" maxlength="1"><br>
+        </div>
+        <div>
+            <label for="mail">Entrez votre adresse e-mail</label><br>
+            <input type="email" id="mail" required><br>
+        </div>
+        <div>
+            <label for="github">Entrez votre URL github</label><br>
+            <input type="url" id="github">
+        </div>
+
+        <br><br>
+
+        <input type="submit" value="Envoyez"><br>
+    </form>
+
+</body>
+</html>
